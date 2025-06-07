@@ -1,0 +1,14 @@
+{
+  "name": "mcp-go-dev",
+  "image": "mcr.microsoft.com/devcontainers/go:1.22",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "GitHub.copilot"
+      ]
+    }
+  },
+  "postCreateCommand": "go mod tidy"
+}
